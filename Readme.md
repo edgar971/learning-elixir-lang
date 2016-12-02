@@ -7,7 +7,14 @@
 
 ## Notes
 - [Elixir Docker Image](https://hub.docker.com/_/elixir/)
-- Command: `docker run -it --rm elixir`
 
-## Ideas
+## Useful commands
+
+- Running Docker container: 
+
+            docker run -it -v $(pwd)/:/app --rm elixir
+
+
+- Reload Module
+             r(ModulePlayground)
 

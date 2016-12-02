@@ -1,0 +1,184 @@
+        iex(4)> ModulePlayground.say_hey_bro                                    iex(4)> r(ModulePlayground)                           iex(4)> ModulePlayground.say_hey_bro
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^Croot@029947b59712:/app/exercises/modules# iex "module_playgrould.exs" 
+Erlang/OTP 19 [erts-8.1.1] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+Interactive Elixir (1.3.4) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> ModulePlayground.say_hey_bro
+Hey bro! Changed!
+[33m:ok[0m
+iex(2)>         iex(2)> ModulePlayground.say_hey_bro                                    iex(2)> r(ModulePlayground. )[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:1
+
+[33m{:reloaded, ModulePlayground, [ModulePlayground]}[0m
+iex(3)>         iex(3)> r(ModulePlayground)                           iex(3)> ModulePlayground.say_hey_bro
+Hey bro! Changed again!
+[33m:ok[0m
+iex(4)>         iex(4)> ModulePlayground.say_hey_bro                                    iex(4)> r(ModulePlayground)
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:2
+
+[33m{:reloaded, ModulePlayground, [ModulePlayground]}[0m
+iex(5)>         iex(5)> r(ModulePlayground)                           iex(5)> ModulePlayground.say_hey_bro
+Hey bro! Changed again!
+[33m:ok[0m
+iex(6)>         iex(6)> ModulePlayground.say_hey_bro                                    iex(6)> r(ModulePlayground)
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:2
+
+[33m{:reloaded, ModulePlayground, [ModulePlayground]}[0m
+iex(7)>         iex(7)> r(ModulePlayground)                           iex(7)> ModulePlayground.say_hey_bro
+Hey bro! Changed again!
+[33m:ok[0m
+iex(8)>         iex(8)> ModulePlayground.say_hey_bro          i  inspect e
+[31m** (CompileError) iex:8: undefined function e/0[0m
+[31m    [0m
+iex(8)>         iex(8)> ModulePlayground.inspect e  9 (1)[C[C[C
+Start output
+1
+Ending output
+[33m:ok[0m
+iex(9)>         iex(9)> ModulePlayground.inspect(1)                                   iex(9)> ModulePlayground.inspect e                                  iex(9)> ModulePlayground.say_hey_bro                                    iex(9)> r(ModulePlayground)
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:2
+
+[33m{:reloaded, ModulePlayground, [ModulePlayground]}[0m
+iex(10)>          iex(10)> r(ModulePlayground)                            iex(10)> ModulePlayground.inspect(1)                                    iex(10)> ModulePlayground.inspect e                                   iex(10)> ModulePlayground.say_hey_bro
+Hey bro! Changed again!
+[33m:ok[0m
+iex(11)> import_file("msc   misc_util_math.exs")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[33m{:module, ModulePlayground.Misc.Util.Math,
+ <<70, 79, 82, 49, 0, 0, 4, 232, 66, 69, 65, 77, 69, 120, 68, 99, 0, 0, 0, 157,
+   131, 104, 2, 100, 0, 14, 101, 108, 105, 120, 105, 114, 95, 100, 111, 99, 115,
+   95, 118, 49, 108, 0, 0, 0, 4, 104, 2, ...>>, {:add, 2}}[0m
+iex(12)>          iex(12)> import_file("misc_util_math.exs")                                          iex(12)> ModulePlayground.say_hey_bro                                     iex(12)> r(ModulePlayground)                            iex(12)> ModulePlayground.inspect(1)                                    iex(12)> r(ModulePlayground)
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:2
+
+[31m** (CompileError) module_playgrould.exs:7: undefined function except/1[0m
+[31m    [0m
+iex(12)>          iex(12)> r(ModulePlayground)                            iex(12)> import_file("misc_util_math.exs")                                          iex(12)> ModulePlayground.sa ay_hey_bro
+Hey bro! Changed again!
+[33m:ok[0m
+iex(13)>          iex(13)> ModulePlayground.say_hey_bro           print                               iex(13)> r(ModulePlayground)                            iex(13)> import_file("misc_util_math.exs")
+[33mwarning: [0mredefining module ModulePlayground.Misc.Util.Math (current version defined in memory)
+  iex:1
+
+[33m{:module, ModulePlayground.Misc.Util.Math,
+ <<70, 79, 82, 49, 0, 0, 4, 232, 66, 69, 65, 77, 69, 120, 68, 99, 0, 0, 0, 157,
+   131, 104, 2, 100, 0, 14, 101, 108, 105, 120, 105, 114, 95, 100, 111, 99, 115,
+   95, 118, 49, 108, 0, 0, 0, 4, 104, 2, ...>>, {:add, 2}}[0m
+iex(14)>          iex(14)> import_file("misc_util_math.exs")                                          iex(14)> ModulePlayground.print_
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^Croot@029947b59712:/app/exercises/modules# iex "module_playgrould.exs" 
+Erlang/OTP 19 [erts-8.1.1] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+** (CompileError) module_playgrould.exs:7: undefined function except/1
+root@029947b59712:/app/exercises/modules# iex "module_playgrould.exs" 
+Erlang/OTP 19 [erts-8.1.1] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+Interactive Elixir (1.3.4) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> import( _file("    # Import the Kernel module except the inspect function
+...(1)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+
+
+c
+
+...(1)> 
+...(1)> 
+...(1)> 
+...(1)> 
+...(1)>         ...(1)> import_file("    # Import the Kernel module except the inspect function                                                                               ...(1)> import_file("module_playgrould.exs")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+...(1)> ModulePlayground.print_sum
+...(1)>         ...(1)> ModulePlayground.print_sum                                  ...(1)> import_file("module_playgrould.exs")                                            ...(1)> import_file("    # Import the Kernel module except the inspect function                                                                               ...(1)> import_file("module_playgrould.exs")
+...(1)> r(ModulePlayground. )[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+...(1)>         ...(1)> r(ModulePlayground)                           ...(1)> import_file("module_playgrould.exs")                                            ...(1)> r(ModulePlayground)
+...(1)>         ...(1)> r(ModulePlayground)                           ...(1)> import_file("module_playgrould.exs")                                            ...(1)> ModulePlayground.print_sum
+...(1)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^Croot@029947b59712:/app/exercises/modules# iex "module_playgrould.exs" 
+Erlang/OTP 19 [erts-8.1.1] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+Interactive Elixir (1.3.4) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> import_file("module_playgrould.exs")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  iex:2
+
+[33m{:module, ModulePlayground,
+ <<70, 79, 82, 49, 0, 0, 7, 32, 66, 69, 65, 77, 69, 120, 68, 99, 0, 0, 0, 221,
+   131, 104, 2, 100, 0, 14, 101, 108, 105, 120, 105, 114, 95, 100, 111, 99, 115,
+   95, 118, 49, 108, 0, 0, 0, 4, 104, 2, ...>>, {:print_sum, 0}}[0m
+iex(2)> ModulePlayground.. 
+inspect/1        print_sum/0      say_hey_bro/0    
+iex(2)> ModulePlayground.print_sum
+[31m** (UndefinedFunctionError) function ModulePlayground.Misc.Util.Math.add/2 is undefined (module ModulePlayground.Misc.Util.Math is not available)[0m
+[31m    [31m[1m[0m[31mModulePlayground.Misc.Util.Math.add(1, 5)[0m
+    [31m[1m[0m[31miex:27: ModulePlayground.print_sum/0[0m[0m
+iex(2)>         iex(2)> ModulePlayground.print_sum                                  iex(2)> import_file("module_playgrould.exs")                                            iex(2)> ModulePlayground.print_sum                                  iex(2)> r(ModulePlayground. )[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[31m** (ArgumentError) could not find source (/app/exercises/modules/iex) for module: ModulePlayground[0m
+[31m    [31m[1m(iex) [0m[31mlib/iex/helpers.ex:370: IEx.Helpers.do_r/1[0m
+    [31m[1m(iex) [0m[31mlib/iex/helpers.ex:356: IEx.Helpers.r/1[0m[0m
+iex(2)> r(ModulePlayground)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[31m** (ArgumentError) could not find source (/app/exercises/modules/iex) for module: ModulePlayground[0m
+[31m    [31m[1m(iex) [0m[31mlib/iex/helpers.ex:370: IEx.Helpers.do_r/1[0m
+    [31m[1m(iex) [0m[31mlib/iex/helpers.ex:356: IEx.Helpers.r/1[0m[0m
+iex(2)>         iex(2)> r(ModulePlayground)import_file("module_playgrould.exs")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^Croot@029947b59712:/app/exercises/modules# iex "module_playgrould.exs" 
+Erlang/OTP 19 [erts-8.1.1] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+Interactive Elixir (1.3.4) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> un  import_file("misc_util_math.exs")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[33m{:module, ModulePlayground.Misc.Util.Math,
+ <<70, 79, 82, 49, 0, 0, 4, 232, 66, 69, 65, 77, 69, 120, 68, 99, 0, 0, 0, 157,
+   131, 104, 2, 100, 0, 14, 101, 108, 105, 120, 105, 114, 95, 100, 111, 99, 115,
+   95, 118, 49, 108, 0, 0, 0, 4, 104, 2, ...>>, {:add, 2}}[0m
+iex(2)> ModulePlayground.
+Misc             inspect/1        print_sum/0      say_hey_bro/0    
+
+iex(2)> ModulePlayground.
+Misc             inspect/1        print_sum/0      say_hey_bro/0    
+
+iex(2)> ModulePlayground.print_sum
+[33m6[0m
+iex(3)>         iex(3)> ModulePlayground.print_sum                                  iex(3)> import_file("misc_util_math.exs")                                         iex(3)> ModulePlayground.print_sum                                  iex(3)> r(ModulePlayground)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:2
+
+[33m{:reloaded, ModulePlayground, [ModulePlayground]}[0m
+iex(4)>         iex(4)> r(ModulePlayground)                           iex(4)> ModulePlayground.print_sum
+[33m6[0m
+iex(5)>         iex(5)> ModulePlayground.print_sum                                  iex(5)> r(ModulePlayground)
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:2
+
+[33m{:reloaded, ModulePlayground, [ModulePlayground]}[0m
+iex(6)>         iex(6)> r(ModulePlayground)                           iex(6)> ModulePlayground.print_sum         
+Misc               inspect/1          print_is_even/1    print_sum/0        
+say_hey_bro/0      
+iex(6)> ModulePlayground.print_is_even(1)[C[C[C
+[31m** (UndefinedFunctionError) function Integer.is_even/1 is undefined or private. Did you mean one of:
+
+      * is_even/1
+[0m
+[31m    [31m[1m(elixir) [0m[31mInteger.is_even(1)[0m
+    [31m[1m         [0m[31mmodule_playgrould.exs:32: ModulePlayground.print_is_even/1[0m[0m
+iex(6)>         iex(6)> ModulePlayground.print_is_even(1)                                         iex(6)> r(ModulePlayground)
+[33mwarning: [0mredefining module ModulePlayground (current version defined in memory)
+  module_playgrould.exs:2
+
+[33m{:reloaded, ModulePlayground, [ModulePlayground]}[0m
+iex(7)>         iex(7)> r(ModulePlayground)                           iex(7)> ModulePlayground.print_is_even(1)
+Is 1 even? false
+[33m:ok[0m
+iex(8)>         iex(8)> ModulePlayground.print_is_even(1)) 2)[C
+Is 2 even? true
+[33m:ok[0m
+iex(9)> 
