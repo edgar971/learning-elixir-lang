@@ -219,4 +219,16 @@ iex(3)>         iex(3)> r(App.Enum)          
 [33m'a'[0m
 iex(4)>         iex(4)> App.Enum.first(['a','b','c'])]) ]) ]) ]) ]) ]) ]) ]) ]) ]) ]) [C[C
 [33mnil[0m
-iex(5)> 
+iex(5)>         iex(5)> App.Enum.first([])                          iex(5)> App.Enum.first(['a','b','c'])                                     iex(5)> r(App.Enum)
+[33mwarning: [0mredefining module App.Enum (current version defined in memory)
+  sample_enum.exs:1
+
+[33m{:reloaded, App.Enum, [App.Enum]}[0m
+iex(6)> S App
+App            Application    
+iex(6)> App.Enum.first([][C[C)[C[C[C[C)[C
+[31m** (SyntaxError) iex:6: unexpected token: )[0m
+[31m    [0m
+iex(6)>         iex(6)> App.Enum.first([])) 
+[33mnil[0m
+iex(7)> 

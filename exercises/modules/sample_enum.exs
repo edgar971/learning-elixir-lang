@@ -1,11 +1,6 @@
 defmodule App.Enum do 
 
-    def first([]) do 
-        nil
-    end
-
-    def first([head | tail]) do 
-        head
-    end
+    def first([]), do: nil
+    def first([head | _]), do: head
 
 end
