@@ -17,4 +17,6 @@
 
 - Reload Module
              r(ModulePlayground)
+- Load Files: 
+            load_file("file_name.exs")
 
