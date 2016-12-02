@@ -231,4 +231,22 @@ iex(6)> App.Enum.first([][C[C)[C[C[C[C)[C
 [31m    [0m
 iex(6)>         iex(6)> App.Enum.first([])) 
 [33mnil[0m
-iex(7)> 
+iex(7)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^Croot@029947b59712:/app/exercises/modules# ^C
+root@029947b59712:/app/exercises/modules# ^C
+root@029947b59712:/app/exercises/modules# exit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;edgar971@Edgars-MacBook-Pro: ~/dev/labs/learning-elixir]1;..arning-elixir[0m[27m[24m[J[01;31m➜  [36mlearning-elixir[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mgit remote add origin git@github.com:edgar971/learning-elixir-lang.git[27m[70D[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ma[27md[27md[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mg[27mi[27mt[27m@[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m:[27me[27md[27mg[27ma[27mr[27m9[27m7[27m1[27m/[27ml[27me[27ma[27mr[27mn[27mi[27mn[27mg[27m-[27me[27ml[27mi[27mx[27mi[27mr[27m-[27ml[27ma[27mn[27mg[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;git remote add origin git@github.com:edgar971/learning-elixir-lang.git]1;git[1m[7m%[27m[1m[0m                                                                                                                    ]2;edgar971@Edgars-MacBook-Pro: ~/dev/labs/learning-elixir]1;..arning-elixir[0m[27m[24m[J[01;32m➜  [36mlearning-elixir[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mgit push -u origin master[27m[25D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27mu[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27mr[?1l>[?2004l
+]2;git push -u origin master]1;gitCounting objects: 29, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/25)   Compressing objects:   8% (2/25)   Compressing objects:  12% (3/25)   Compressing objects:  16% (4/25)   Compressing objects:  20% (5/25)   Compressing objects:  24% (6/25)   Compressing objects:  28% (7/25)   Compressing objects:  32% (8/25)   Compressing objects:  36% (9/25)   Compressing objects:  40% (10/25)   Compressing objects:  44% (11/25)   Compressing objects:  48% (12/25)   Compressing objects:  52% (13/25)   Compressing objects:  56% (14/25)   Compressing objects:  60% (15/25)   Compressing objects:  64% (16/25)   Compressing objects:  68% (17/25)   Compressing objects:  72% (18/25)   Compressing objects:  76% (19/25)   Compressing objects:  80% (20/25)   Compressing objects:  84% (21/25)   Compressing objects:  88% (22/25)   Compressing objects:  92% (23/25)   Compressing objects:  96% (24/25)   Compressing objects: 100% (25/25)   Compressing objects: 100% (25/25), done.
+Writing objects:   3% (1/29)   Writing objects:   6% (2/29)   Writing objects:  10% (3/29)   Writing objects:  13% (4/29)   Writing objects:  17% (5/29)   Writing objects:  20% (6/29)   Writing objects:  24% (7/29)   Writing objects:  27% (8/29)   Writing objects:  31% (9/29)   Writing objects:  34% (10/29)   Writing objects:  37% (11/29)   Writing objects:  41% (12/29)   Writing objects:  44% (13/29)   Writing objects:  48% (14/29)   Writing objects:  51% (15/29)   Writing objects:  55% (16/29)   Writing objects:  58% (17/29)   Writing objects:  62% (18/29)   Writing objects:  65% (19/29)   Writing objects:  68% (20/29)   Writing objects:  72% (21/29)   Writing objects:  75% (22/29)   Writing objects:  79% (23/29)   Writing objects:  82% (24/29)   Writing objects:  86% (25/29)   Writing objects:  89% (26/29)   Writing objects:  93% (27/29)   Writing objects:  96% (28/29)   Writing objects: 100% (29/29)   Writing objects: 100% (29/29), 5.88 KiB | 0 bytes/s, done.
+Total 29 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), done.[K
+To github.com:edgar971/learning-elixir-lang.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;edgar971@Edgars-MacBook-Pro: ~/dev/labs/learning-elixir]1;..arning-elixir[0m[27m[24m[J[01;32m➜  [36mlearning-elixir[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
