@@ -1,6 +1,13 @@
 defmodule App.Enum do 
 
-    def first([]), do: nil
-    def first([head | _]), do: head
+    def first(list) do
+
+        if(length(list) == 0) do 
+            nil
+        else 
+            hd(list)
+        end
+
+    end
 
 end
