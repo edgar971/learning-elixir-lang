@@ -16,8 +16,13 @@
 
 
 - Reload Module
+
              r(ModulePlayground)
+
 - Load Files: 
 
             load_file("file_name.exs")
 
+- Mix is a CLI for Elixir. 
+
+            mix help
