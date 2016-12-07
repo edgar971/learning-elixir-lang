@@ -14,7 +14,7 @@ defmodule TweetApp.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger],
+    [applications: [:logger, :quantum],
      mod: {TweetApp, []}]
   end
 
@@ -28,6 +28,9 @@ defmodule TweetApp.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:credo, "~> 0.5.3"}]
+    [
+      {:credo, "~> 0.5.3"},
+      {:quantum, "~> 1.8"}
+    ]
   end
 end
