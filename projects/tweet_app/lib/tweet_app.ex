@@ -19,6 +19,7 @@ defmodule TweetApp do
     
     TweetApp.Scheduler.schedule_file("* * * * *", Path.join("#{:code.priv_dir(:tweet_app)}", "tweets.txt"))
 
+    # Make sure we return the process. Elixir needs to know and track it. 
     process
 
   end
