@@ -14,7 +14,8 @@ defmodule TweetApp.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :quantum],
+    [applications: [:logger, :quantum,
+    :extwitter],
      mod: {TweetApp, []}]
   end
 
@@ -30,7 +31,9 @@ defmodule TweetApp.Mixfile do
   defp deps do
     [
       {:credo, "~> 0.5.3"},
-      {:quantum, "~> 1.8"}
+      {:quantum, "~> 1.8"},
+      {:extwitter, "~> 0.7.2"},
+      {:oauth, github: "tim/erlang-oauth"}
     ]
   end
 end
