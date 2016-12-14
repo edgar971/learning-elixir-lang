@@ -1,10 +1,11 @@
 defmodule FileReaderTest do 
 
     use ExUnit.Case
+    import TweetApp.FileReader
 
     test "Passing a file should return a string" do 
 
-        str = TweetApp.FileReader.get_msgs_to_tweet(
+        str = get_msgs_to_tweet(
             Path.join("#{:code.priv_dir(:tweet_app)}", "tweets.txt")
         )
 
@@ -14,7 +15,7 @@ defmodule FileReaderTest do
 
     test "will not return a string longer than 140 characters" do 
 
-        str = TweetApp.FileReader.get_msgs_to_tweet(
+        str = get_msgs_to_tweet(
             Path.join("#{:code.priv_dir(:tweet_app)}", "/tests/too_long.txt")
         )
 
@@ -24,7 +25,7 @@ defmodule FileReaderTest do
 
     test "An empty string should return an empty string" do 
 
-        str = TweetApp.FileReader.pick_string("")
+        str = pick_string("")
 
         assert str == ""
 
