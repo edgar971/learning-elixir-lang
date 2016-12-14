@@ -1,0 +1,2 @@
+The unavoidable truth about software running in production is that things will go wrong. Even more when we take network, file systems, and other third-party resources into account. To cope with failures, Elixir provides supervisors which describe how to restart parts of your system when things go awry, going back to a known initial state that is guaranteed to work.
+short line
