@@ -1,9 +1,16 @@
 defmodule TweetApp.FileReader do 
 
-    # 1. Read the file
-    # 2. Split by line breaks
-    # 3. Remove any white space
-    # 4. Make sure it's a valid tweet
+    @doc """
+    This function will take the path of a file and find a string that can 
+    be tweeted. 
+
+    It will trim all of the strings, and then eliminate any strings
+    that are larger than 140 characters. 
+
+    iex> TweetApp.FileReader.get_msgs_to_tweet("priv/tests/too_long.txt")
+    "short line"
+
+    """
     def get_msgs_to_tweet(path) do 
         File.read!(path)
         |> pick_string

@@ -5,6 +5,8 @@ defmodule FileReaderTest do
     import Mock
     import TweetApp.FileReader
 
+    doctest TweetApp.FileReader
+    
     test "Passing a file should return a string" do 
 
         str = get_msgs_to_tweet(
