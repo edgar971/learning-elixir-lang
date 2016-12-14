@@ -2,10 +2,7 @@
 
 - [Home Page](elixir-lang.org)
 
-
 ## Resources
-
-## Notes
 - [Elixir Docker Image](https://hub.docker.com/_/elixir/)
 - [Styleguide](https://github.com/christopheradams/elixir_style_guide)
 
